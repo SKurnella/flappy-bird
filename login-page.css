@@ -1,1 +1,100 @@
+body {
+    background-color: #416D19;
 
+}
+
+#container {
+    background-color: #416D19;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+}
+
+.form-box {
+    width: 70%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background: #FFF67E;
+    padding: 50px 60px 70px;
+    text-align: center;
+    border-radius: 10px;
+    opacity: 1;
+    
+}
+
+.form-box h1 {
+    font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 30px;
+  color: #416D19;
+}
+
+.input-field {
+    border-radius: 3px;
+    margin: 15px  0px;
+    background: #416D19;
+    max-height: 65px;
+    display: flex;
+    align-items: center;
+    
+    transition: 0.5s max-height;
+    overflow: hidden;
+    
+}
+
+input {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+    font-family: "Ubuntu Sans Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 17px;
+    font-style: normal;
+    color: #FFF67E;
+}
+
+input::placeholder {
+    color: #FFF67E;
+}
+
+.input-field i {
+    color: #FFF67E;
+    font-size: 18px;
+    padding: 0 10px;
+}
+
+.btn-field {
+    width: 100%;
+    display: flex;
+    justify-content : space-between;
+    text-align: center;
+}
+
+.btn-field button {
+    flex-basis: 48%;
+    background: #416D19;
+    border: 0;
+    border-radius: 3px;
+    height: 40px;
+    outline: 0;
+    cursor: pointer;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFF67E;
+    transition: 0.7s background , 0.7s color , 0.7s box-shadow;
+
+}
+
+.btn-field button:hover {
+    box-shadow: 0 12px 16px 0 #416D19,0 17px 50px 0 #416D19;
+    background: #FFF67E;
+    color: #416D19;
+}
